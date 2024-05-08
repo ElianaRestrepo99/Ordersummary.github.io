@@ -1,0 +1,136 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+  font-family: 'Red Hat Display', sans-serif;
+  min-height: 100vh;
+  background-image: url(images/fondo-azul-patron-ondulado_657162-731.avif);
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  background-color: hsl(225, 100%, 94%);
+  font-size: 16px;
+}
+
+
+main{
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  max-width: 400px;
+  height: 500px;
+  background-color: white;
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+.texto-content{
+  padding: 5px;
+  text-align: center;
+}
+
+.texto-content.tittle{
+  color:hsl(223, 47%, 23%);
+  font-weight: 900;
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+p.subtitle{
+  color: #8a8a8a;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.plan-box{
+  background-color: hsl(225, 100%, 94%);
+  border-radius: 34px;
+  display:flex;
+  padding: 4px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.plan-box-after{
+  display: flex;
+  align-items: center;
+  text-align: left;
+}
+
+.plan-box-after div{
+  margin-left: 1px;
+  margin-right: 1px;
+  padding: 9px;
+}
+
+.plan-box-after div h5{
+  font-weight: 900;
+  font-size: 15px;
+  color:hsl(223, 47%, 23%);
+}
+
+.plan-box-after  div p{
+  font-size: 14px;
+  color:hsl(224, 23%, 55%);
+  text-align: after;
+}
+
+.plan-box-after a{
+  font-weight: 900;
+  color: hsl(223, 47%, 23%);
+}
+
+.plan-box-after a.hover{
+  text-decoration: none;
+  color: hsl(245, 75%, 52%);
+  transition: color 3s ease;
+}
+
+main a.proceed-btn{
+   background-color: hsl(245, 75%, 52%);
+   text-decoration: none;
+   text-align: center;
+   color: hsl(225, 100%, 94%);
+   padding: 8px 0;
+   border-radius: 15px;
+   margin: 10px 0;
+   display: block;
+}
+
+main a.Cancel-btn{
+  background-color:  hsl(224, 23%, 55%);
+  text-decoration: none;
+  font-weight: 300;
+  display: block;
+  padding: 5px 0;
+  text-align: center;
+  color: hsl(225, 100%, 94%);
+  border-radius: 12px;
+}
+
+
+
+main a.Cancel-btn :hover{
+  color: hsl(224, 23%, 55%);
+  text-decoration: none;
+  font-weight: 900;
+  
+}
+
+
+.attribution { 
+  font-size: 13px;
+  text-align: center; 
+  height: auto;
+  }
+
+.attribution a { 
+  color: hsl(228, 4%, 44%); 
+}
